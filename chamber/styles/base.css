@@ -1,0 +1,150 @@
+/* Reset CSS */
+html, body, header, footer, nav, ul, li, a, img, main, section, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Normalize CSS */
+/* Include your normalize.css or reset.css file here */
+
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.call-to-action {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.call-to-action h2 {
+    margin-bottom: 10px;
+}
+
+.call-to-action p {
+    margin-bottom: 20px;
+}
+
+.call-to-action .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.call-to-action .btn:hover {
+    background-color: #0056b3;
+}
+
+.current-events {
+    margin-bottom: 30px;
+}
+
+.current-events ul {
+    list-style: none;
+}
+
+.current-events ul li {
+    margin-bottom: 10px;
+}
+
+.weather-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.weather-info {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.company-spotlights {
+    margin-bottom: 30px;
+}
+
+.company-spotlights .spotlight {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.company-spotlights .spotlight h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.development-info p {
+    margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+}
