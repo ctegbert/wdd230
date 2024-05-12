@@ -73,9 +73,28 @@ nav ul li a:hover {
 
 /* Main styles */
 main {
-    margin: 2rem auto;
-    max-width: 1200px;
-    padding: 0 1rem;
+    margin-top: 70px; /* Adjust to the height of your navigation bar */
+    margin-bottom: 2rem;
+    max-width: 100%; /* Ensure content fills the entire width of the screen */
+    padding: 0;
+}
+
+/* Hero image section styles */
+.hero-image {
+    width: 100%; /* Ensure the image fills the entire width of the screen */
+    overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
+}
+
+.hero-image picture,
+.hero-image img {
+    width: 100%; /* Ensure the image fills the entire width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Iframe styles */
+iframe {
+    width: 100%; /* Ensure the iframe fills the entire width of the screen */
+    max-width: 100%; /* Ensure the iframe does not exceed the screen width */
 }
 
 /* Section styles */
@@ -166,4 +185,19 @@ footer {
         display: inline-block; /* Display menu items inline */
         margin-right: 10px; /* Add margin between menu items */
     }
+}
+
+p {
+	margin: 1rem;
+}
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
 }

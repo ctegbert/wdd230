@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <img src="images/newYork.JPG" alt="Header Image">
+        <img src="images/newYork.WebP" alt="Header Image">
         <h1>Colton Egbert</h1>
         <button id="hamburgerButton">&#9776;</button> <!-- Hamburger button -->
         <button id="darkModeToggle">Dark Mode</button>
@@ -32,6 +32,16 @@
     </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
+        <!-- Hero image section -->
+        <section class="hero-image">
+            <picture>
+                <!-- WebP format for better compression -->
+                <source media="(max-width: 640px)" srcset="images/temple.webp">
+                <source media="(min-width: 641px)" srcset="images/templeSmall.webp">
+                <!-- Fallback image for unsupported browsers -->
+                <img src="images/temple.webp" alt="Favorite Latter-day Temple" loading="lazy">
+            </picture>
+        </section>
         <section class="card">
             <h2>Learning Activities</h2>
             <ul id="learning_Activities">
@@ -40,7 +50,10 @@
         <section class="card">
             <h2>Information</h2>
         </section>
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
     </main>
+    
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d42008.05544023482!2d-92.23866623712298!3d37.4878095105318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1715488918953!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p id="copyright"></p>
         <p id="lastModified"></p>
