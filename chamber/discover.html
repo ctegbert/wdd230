@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Chamber of Commerce description here.">
+    <title>Discover</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Social Media Meta -->
+    <meta property="og:title" content="Your Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://example.com/image.jpg">
+    <meta property="og:url" content="http://example.com">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <!-- Header content here -->
+        <h1>Welcome to the Chamber of Commerce</h1>
+        <nav>
+            <!-- Navigation menu here -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Discover More</h2>
+            <!-- Sidebar content here -->
+            <div id="visitMessage"></div>
+        </aside>
+        
+        <!-- Gallery -->
+        <section class="gallery">
+            <h2>Local Photos of Interest</h2>
+            <!-- Lazy-loaded images -->
+            <div class="image" style="background-image: url('images/temple.webp');" data-src="images/temple.webp" data-caption="Caption 1"></div>
+            <div class="image" style="background-image: url('images/temple.webp');" data-src="images/temple.webp" data-caption="Caption 2"></div>
+            <div class="image" style="background-image: url('images/temple.webp');" data-src="images/temple.webp" data-caption="Caption 3"></div>
+            <div class="image" style="background-image: url('images/temple.webp');" data-src="images/temple.webp" data-caption="Caption 4"></div>
+            <div class="image" style="background-image: url('images/temple.webp');" data-src="images/temple.webp" data-caption="Caption 5"></div>
+            <div class="image" style="background-image: url('images/temple.webp');" data-src="images/temple.webp" data-caption="Caption 6"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Footer content here -->
+        <div class="contact-info">
+            <p>Contact us at: chamberofc.com | 123-456-7890</p>
+        </div>
+        <div class="development-info">
+            <p>Developed by: Colton Egbert</p>
+            <p>WDD 230</p>
+            <!-- Element for last modified date -->
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script/getDates.js"></script>
+    <script>
+        // Call the function to get last modified date
+        getLastModified();
+    </script>
+    <script src="script/lazyLoad.js"></script>
+</body>
+</html>

@@ -148,3 +148,46 @@ footer {
         height: auto;
     }
 }
+
+/* Existing CSS styles here */
+
+/* Sidebar styles */
+.sidebar {
+    grid-area: sidebar;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Gallery styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* CSS property effect for gallery images on hover */
+.image:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile view adjustments */
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        grid-area: auto;
+        padding: 20px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        padding: 10px;
+    }
+}
