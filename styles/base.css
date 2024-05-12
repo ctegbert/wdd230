@@ -64,6 +64,13 @@ nav ul li a:hover {
     background-color: #555; /* Dark gray hover background */
 }
 
+/* Media query for mobile view */
+@media (max-width: 640px) {
+    nav ul {
+        display: none; /* Hide navigation menu items in mobile view */
+    }
+}
+
 /* Main styles */
 main {
     margin: 2rem auto;
@@ -134,5 +141,29 @@ footer {
     /* Update footer styles for dark mode */
     footer {
         background-color: #111; /* Dark background color for footer */
+    }
+}
+
+/* Media query for mobile view */
+@media (max-width: 640px) {
+    nav ul {
+        display: block; /* Show navigation menu items in mobile view */
+    }
+
+    nav ul li {
+        display: block; /* Display menu items as block elements */
+        margin-right: 0; /* Remove margin between items */
+    }
+}
+
+/* Additional styles */
+@media (min-width: 641px) {
+    nav ul {
+        display: inline-block; /* Display menu items inline in desktop view */
+    }
+
+    nav ul li {
+        display: inline-block; /* Display menu items inline */
+        margin-right: 10px; /* Add margin between menu items */
     }
 }
