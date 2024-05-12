@@ -78,6 +78,16 @@ section {
     border-radius: 5px;
     padding: 1rem;
     margin-bottom: 1rem;
+    color: #333; /* Dark gray text */
+}
+
+/* Banner styles */
+.banner {
+    background-color: #00796b; /* Dark teal banner background */
+    color: #fff; /* White text */
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 /* Footer styles */
@@ -88,10 +98,41 @@ footer {
     text-align: center;
 }
 
-/* Media query for mobile view */
-@media (max-width: 640px) {
-    nav ul li {
-        display: block; /* Change to block display for vertical layout */
-        margin: 10px 0; /* Add margin top and bottom for spacing */
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+
+    /* Update header styles for dark mode */
+    header {
+        background-color: #111; /* Dark background color for header */
+        color: #fff; /* Light text color for header */
+    }
+
+    /* Update navigation styles for dark mode */
+    nav {
+        background-color: #222; /* Dark background color for navigation */
+    }
+
+    nav ul li a {
+        color: #fff; /* White text */
+    }
+
+    /* Update section styles for dark mode */
+    section {
+        background-color: #444; /* Dark background color for sections */
+        border-color: #666; /* Dark border color */
+        color: #fff; /* Light text color */
+    }
+
+    /* Update banner styles for dark mode */
+    .banner {
+        background-color: #00796b; /* Dark teal banner background */
+        color: #fff; /* White text */
+    }
+
+    /* Update footer styles for dark mode */
+    footer {
+        background-color: #111; /* Dark background color for footer */
     }
 }

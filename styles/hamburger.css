@@ -1,0 +1,35 @@
+/* CSS for hamburger menu */
+
+/* Hide navigation menu by default */
+nav ul {
+    display: none;
+}
+
+/* Hamburger button styles */
+#hamburgerButton {
+    display: none; /* Hide by default */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff; /* White color */
+    padding: 10px;
+}
+
+@media (max-width: 640px) {
+    /* Show hamburger button in mobile view */
+    #hamburgerButton {
+        display: block;
+    }
+
+    /* Show navigation menu in mobile view */
+    nav ul.open {
+        display: block;
+    }
+
+    /* Hide navigation menu items in mobile view */
+    nav ul li {
+        display: block;
+        margin-bottom: 10px; /* Add margin between items */
+    }
+}
