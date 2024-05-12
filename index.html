@@ -8,9 +8,11 @@
     <meta name="author" content="Colton Egbert">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getDates.js" defer></script>
 </head>
 <body>
     <header>
+        <img src="images/newYork.JPG" alt="Header Image">
         <h1>Colton Egbert</h1>
     </header>
     <nav>
@@ -25,7 +27,7 @@
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
-            <ul id="Learning Activities">
+            <ul id="learning_Activities">
             </ul>
         </section>
         <section class="card">
@@ -36,10 +38,5 @@
         <p id="copyright"></p>
         <p id="lastModified"></p>
     </footer>
-    <script>
-        const currentYear = new Date().getFullYear();
-        document.getElementById("copyright").innerHTML = "&copy; " + currentYear + " Colton Egbert, USA";
-        document.getElementById("lastModified").innerHTML = "Last modified: " + document.lastModified;
-    </script>
 </body>
 </html>
