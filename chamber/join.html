@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Chamber of Commerce description here.">
+    <title>Chamber of Commerce</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Social Media Meta -->
+    <meta property="og:title" content="Your Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://example.com/image.jpg">
+    <meta property="og:url" content="http://example.com">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <!-- Header content here -->
+        <h1>Welcome to the Chamber of Commerce</h1>
+        <nav>
+            <!-- Navigation menu here -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Membership Application Form</h2>
+        <form action="thankyou.html" method="get">
+            <label for="first-name">Applicant's First Name: <input type="text" id="first-name" name="first-name" required></label><br>
+            <label for="last-name">Applicant's Last Name: <input type="text" id="last-name" name="last-name" required></label><br>
+            <label for="title">Applicant's Title/Position: <input type="text" id="title" name="title" pattern="[A-Za-z -]{7,}" title="Please enter at least 7 characters, only alphabets, hyphens, and spaces allowed"></label><br>
+            <label for="email">Email Address: <input type="email" id="email" name="email" required placeholder="example@example.com"></label><br>
+            <label for="phone">Mobile Phone Number: <input type="tel" id="phone" name="phone" required></label><br>
+            <label for="organization">Business/Organization's Name: <input type="text" id="organization" name="organization" required></label><br>
+            <label for="membership-level">Membership Level: 
+                <select id="membership-level" name="membership-level" required>
+                    <option value="NP">NP Membership (Free)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </label><br>
+            <label for="description">Business/Organization's Description: <textarea id="description" name="description"></textarea></label><br>
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    
+    <footer>
+        <!-- Footer content here -->
+        <div class="contact-info">
+            <p>Contact us at: chamberofc.com | 123-456-7890</p>
+        </div>
+        <div class="development-info">
+            <p>Developed by: Colton Egbert</p>
+            <p>WDD 230</p>
+            <!-- Element for last modified date -->
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    
+    <script src="scripts/getDates.js"></script>
+    <script>
+        // Call the function to get last modified date
+        getLastModified();
+    </script>
+</body>
+</html>
