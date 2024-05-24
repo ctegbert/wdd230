@@ -1,0 +1,90 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week1/activity1.html",
+            "title": "Introduction to HTML"
+          },
+          {
+            "url": "week1/activity2.html",
+            "title": "Basic CSS"
+          },
+          {
+            "url": "week1/activity3.html",
+            "title": "CSS Layouts"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week2/activity1.html",
+            "title": "Responsive Design"
+          },
+          {
+            "url": "week2/activity2.html",
+            "title": "CSS Flexbox"
+          },
+          {
+            "url": "week2/activity3.html",
+            "title": "CSS Grid"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week3/activity1.html",
+            "title": "JavaScript Basics"
+          },
+          {
+            "url": "week3/activity2.html",
+            "title": "DOM Manipulation"
+          },
+          {
+            "url": "week3/activity3.html",
+            "title": "Event Handling"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week4/activity1.html",
+            "title": "Asynchronous JavaScript"
+          },
+          {
+            "url": "week4/activity2.html",
+            "title": "AJAX and Fetch API"
+          },
+          {
+            "url": "week4/activity3.html",
+            "title": "Error Handling"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week5/activity1.html",
+            "title": "Introduction to Node.js"
+          },
+          {
+            "url": "week5/activity2.html",
+            "title": "Express.js"
+          },
+          {
+            "url": "week5/activity3.html",
+            "title": "RESTful APIs"
+          }
+        ]
+      }
+    ]
+  }
+  
