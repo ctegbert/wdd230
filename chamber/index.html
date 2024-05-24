@@ -55,12 +55,12 @@
             </ul>
         </section>
         
-        <!-- Weather card -->
         <section class="weather-card">
             <h2>Weather</h2>
             <div class="weather-info">
-                <!-- Weather information here -->
-                <p>Weather data goes here...</p>
+                <p id="current-temp">Loading...</p>
+                <img id="weather-icon" src="" alt="Weather Icon">
+                <p id="weather-desc">Fetching weather data...</p>
             </div>
         </section>
         
@@ -100,5 +100,6 @@
         // Call the function to get last modified date
         getLastModified();
     </script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
