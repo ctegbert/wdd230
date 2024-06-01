@@ -1,0 +1,66 @@
+[
+    {
+      "name": "USAxe Club",
+      "address": "Rua Rodrigues de Faria 103",
+      "phone": "123-456-7890",
+      "website": "http://www.usaxeclub.com",
+      "image": "company1.jpg",
+      "membership_level": "Gold",
+      "other_information": "Best Axe Throwing in the World!"
+    },
+    {
+      "name": "eLawns LLC",
+      "address": "443 W Miramonte Dr",
+      "phone": "987-654-3210",
+      "website": "http://www.elawns.com",
+      "image": "company2.jpg",
+      "membership_level": "Silver",
+      "other_information": "Get that fresh mowed smell - that eLawn Musk!"
+    },
+    {
+      "name": "Homestretch Geothermal",
+      "address": "43 Julian Ln",
+      "phone": "321-654-0987",
+      "website": "http://www.apple.com",
+      "image": "company3.jpg",
+      "membership_level": "Bronze",
+      "other_information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Black Rock Mud Co",
+      "address": "655 Country Dr",
+      "phone": "654-321-9870",
+      "website": "http://www.blackrockmud.com",
+      "image": "company4.jpg",
+      "membership_level": "Platinum",
+      "other_information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "name": "Custom Cases",
+      "address": "1875 N Higley Blvd",
+      "phone": "789-012-3456",
+      "website": "http://www.customcases.com",
+      "image": "company5.jpg",
+      "membership_level": "Gold",
+      "other_information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Egbert Acres",
+      "address": "10360 Hwy Ae",
+      "phone": "012-345-6789",
+      "website": "http://www.egbertacres.com",
+      "image": "company6.jpg",
+      "membership_level": "Silver",
+      "other_information": "Feeding our communities!"
+    },
+    {
+      "name": "H2GO",
+      "address": "Rua 1 de Maio",
+      "phone": "345-678-9012",
+      "website": "http://www.h2-go.com",
+      "image": "company7.jpg",
+      "membership_level": "Bronze",
+      "other_information": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+  
